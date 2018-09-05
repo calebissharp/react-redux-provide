@@ -1,4 +1,5 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types'
 import isPlainObject from 'is-plain-object';
 import { bindActionCreators } from 'redux';
 import shallowEqual from 'react-redux/lib/utils/shallowEqual';
